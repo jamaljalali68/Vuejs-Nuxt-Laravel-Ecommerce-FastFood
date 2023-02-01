@@ -1,6 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Vuejs-Nuxt-Ecommerce-FastFood
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a Ecommerce sample project that its Auth service is on the Base of OTP .
+
+In this project we separated Backend and FrontEnd.
+
+Backend created with Laravel that its source code is here : 
+Look at the [Back-End Source Code](https://github.com/jamaljalali68/Laravel-Api-Ecommerce-FastFood) to learn more.
+
+FrontEnd part Developed by Vuejs (Nuxt) that i hope it be helpful for developers.
+
 
 ## Setup
 
@@ -14,7 +22,7 @@ yarn install
 npm install
 
 # pnpm
-pnpm install
+pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -24,19 +32,3 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
